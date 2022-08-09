@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: #273549;
+}
+
+#btn {
+  color: white;
+  background-color: #10B981;
+  padding: 15px;
+  border-radius:10px;
+  font-size: 1.3em;
+}
