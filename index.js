@@ -11,32 +11,14 @@ function generatePasswords() {
   passTwo.textContent= passwordTwo
 }
 
-  
-// function makePassword() {
-//   let times = 15
-//   let length = characters.length
-//   let password = []
-//   for ( let i = 0; i < times; i++ ) {
-
-//     let x = Math.floor(Math.random() * 15) 
-//     password.push(characters[x]) 
-    
-//   }
-//   password = password.toString()
-//   return password
-// }
-  
 function makePassword() {
   let length = characters.length
   let password = []
-  // console.log(length)
   for (let i =0; i < 15; i++) {
     let x = Math.floor(Math.random() * length)
     password.push(characters[x])
-    // console.log(i)
     console.log(characters[x])
   }
   password =  password.join('')
   return password
-  // console.log(password)
 }

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #273549;
+  font-family: 'Dosis', sans-serif;
 }
 
 #btn {
@@ -12,6 +13,7 @@ body {
   margin-top: 35px;
   border-radius:10px;
   font-size: 1.3em;
+  font-family: 'Dosis', sans-serif;
 }
 
 #header {
@@ -23,10 +25,11 @@ body {
 
 #random-el {
   color: #10B981;
+  font-family: 'Dosis', sans-serif;
 }
 #passwords {
   padding-left: 50px;
-  
+  font-family: sans-serif;
   padding-top: 10px;
 }
 
@@ -44,5 +47,5 @@ body {
   color: #10B981;
   padding: 10px;
   border-radius: 8px;
-  /* border: 1px solid #ffffff; */
+
 }
